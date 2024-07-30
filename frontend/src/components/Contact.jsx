@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:3000/api/v1/contact",
+        "https://mernevents-5.onrender.com/api/v1/contact",
         {
           name,
           email,
